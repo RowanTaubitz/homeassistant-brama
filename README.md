@@ -12,14 +12,6 @@
 
 _Integration to integrate with [brama_integration][brama_integration]._
 
-**This integration will set up the following platforms.**
-
-Platform | Description
--- | --
-`binary_sensor` | Show something `True` or `False`.
-`sensor` | Show info from blueprint API.
-`switch` | Switch something `True` or `False`.
-
 ## Installation
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
@@ -41,12 +33,8 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 ***
 
 [brama_integration]: https://github.com/RowanTaubitz/brama_integration
-[buymecoffee]: https://www.buymeacoffee.com/ludeeus
-[buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=for-the-badge
 [commits-shield]: https://img.shields.io/github/commit-activity/y/RowanTaubitz/brama_integration.svg?style=for-the-badge
 [commits]: https://github.com/RowanTaubitz/brama_integration/commits/main
-[discord]: https://discord.gg/Qa5fW2R
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [exampleimg]: example.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/
