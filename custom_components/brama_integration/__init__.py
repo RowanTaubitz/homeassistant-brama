@@ -14,7 +14,6 @@ from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.loader import async_get_loaded_integration
 
 from .api import BramaIntegrationApiClient
-from .const import DOMAIN
 from .coordinator import BlueprintDataUpdateCoordinator
 from .data import BramaIntegrationData
 
