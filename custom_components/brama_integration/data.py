@@ -1,4 +1,4 @@
-"""Custom types for integration_blueprint."""
+"""Custom types for brama_integration."""
 
 from __future__ import annotations
 
@@ -9,17 +9,17 @@ if TYPE_CHECKING:
     from homeassistant.config_entries import ConfigEntry
     from homeassistant.loader import Integration
 
-    from .api import IntegrationBlueprintApiClient
+    from .api import BramaIntegrationApiClient
     from .coordinator import BlueprintDataUpdateCoordinator
 
 
-type IntegrationBlueprintConfigEntry = ConfigEntry[IntegrationBlueprintData]
+type BramaIntegrationConfigEntry = ConfigEntry[BramaIntegrationData]
 
 
 @dataclass
-class IntegrationBlueprintData:
+class BramaIntegrationData:
     """Data for the Blueprint integration."""
 
-    client: IntegrationBlueprintApiClient
+    client: BramaIntegrationApiClient
     coordinator: BlueprintDataUpdateCoordinator
     integration: Integration
