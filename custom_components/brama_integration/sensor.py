@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from homeassistant.components.sensor import SensorEntity, SensorEntityDescription
-from homeassistant.const import UnitOfApparentPower, UnitOfTemperature
+from homeassistant.const import UnitOfElectricPotential, UnitOfTemperature
 
 from .const import DOMAIN
 from .entity import BramaIntegrationEntity
@@ -23,7 +23,7 @@ ENTITY_DESCRIPTIONS = (
         key="ac_voltage",
         name="AC Voltage",
         icon="mdi:flash",
-        native_unit_of_measurement=UnitOfApparentPower.VOLT_AMPERE,
+        native_unit_of_measurement=UnitOfElectricPotential.VOLT,
     ),
     SensorEntityDescription(
         key="temp_l",
